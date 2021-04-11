@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c618208a-7dd2-48b1-9dab-40b6a8de27fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../cms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/sql/cms.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/CmsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/ArticleAttachmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/ArticleTagController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/ChannelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/FriendLinkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/TagController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/ArticleAttachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/ArticleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/Channel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/FriendLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/framework/config/MyConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/framework/exception/MyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/framework/jwt/JWTUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/framework/mvc/GlobalControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/framework/mvc/MyMvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/framework/mvc/TokenInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/front/FrontArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/front/FrontChannelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/ArticleAttachmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/ArticleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/ArticleTagMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/ChannelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/FriendLinkMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/TagMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/ArticleAttachmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/ArticleTagService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/ChannelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/FriendLinkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/ArticleAttachmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/ArticleTagServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/ChannelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/FriendLinkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/TagServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/utils/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/utils/Maps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/utils/RequestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/utils/UserNullUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/vo/ArticleVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/com/zhaoguoshun/vo/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/ArticleAttachmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/ArticleTagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/ChannelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/FriendLinkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/TagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/test/java/com/zhaoguoshun/CmsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/test/java/com/zhaoguoshun/generator/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/test/java/com/zhaoguoshun/service/impl/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/CmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/ArticleAttachmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/ArticleTagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/ChannelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/FriendLinkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/TagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/ArticleAttachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/ArticleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/FriendLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/framework/config/MyConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/framework/exception/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/framework/jwt/JWTUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/framework/mvc/GlobalControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/framework/mvc/MyMvcConfigurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/framework/mvc/TokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/front/FrontArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/front/FrontChannelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/ArticleAttachmentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/ArticleTagMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/ChannelMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/CommentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/FriendLinkMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/TagMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/ArticleAttachmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/ArticleTagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/ChannelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/FriendLinkService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/ArticleAttachmentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/ArticleTagServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/ChannelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/FriendLinkServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/TagServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/utils/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/utils/Maps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/utils/RequestUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/utils/UserNullUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/vo/ArticleVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/com/zhaoguoshun/vo/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/ArticleAttachmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/ArticleTagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/ChannelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/FriendLinkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/TagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/cms-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/cms-1.0.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/surefire-reports/TEST-com.zhaoguoshun.CmsApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/surefire-reports/TEST-com.zhaoguoshun.service.impl.UserServiceImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/surefire-reports/com.zhaoguoshun.CmsApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/surefire-reports/com.zhaoguoshun.service.impl.UserServiceImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/test-classes/com/zhaoguoshun/CmsApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/test-classes/com/zhaoguoshun/generator/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/target/test-classes/com/zhaoguoshun/service/impl/UserServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../master" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cms: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\maven-repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="12" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1lVDMNqismYURmmKMcJC0NXQMSa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.14790076" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zhaoguoshun.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2019_3代码\研真博客\cms\src\main\resources\mybatis\mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.su.utils" />
+      <recent name="com.su.framework.config" />
+      <recent name="com.su.entity" />
+      <recent name="com.su.framework.jwt" />
+      <recent name="com.su.framework.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\su-blog\backend\src\main\java\com\su\framework\component" />
+      <recent name="C:\Users\Administrator\Desktop\su-blog\backend\src\main\java\com\su\mapper" />
+      <recent name="C:\Users\Administrator\Desktop\su-blog\backend\src\main\java\com\su\service\impl" />
+      <recent name="C:\Users\Administrator\Desktop\su-blog\backend\src\main\java\com\su\service" />
+      <recent name="D:\2019_3代码\研真博客\cms\src\main\resources\mybatis\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CmsApplication">
+    <configuration name="JWTUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.su.framework.jwt.JWTUtils" />
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.framework.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.su.utils.Maps" />
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.su.generator.MybatisPlusConfig" />
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.su.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.su.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.su.CmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybatisPlusConfig" />
+        <item itemvalue="JUnit.UserServiceImplTest.test" />
+        <item itemvalue="Application.JWTUtils" />
+        <item itemvalue="Application.Maps" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c618208a-7dd2-48b1-9dab-40b6a8de27fd" name="Default Changelist" comment="" />
+      <created>1607673316127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607673316127</updated>
+      <workItem from="1607673323408" duration="20964000" />
+      <workItem from="1607755863651" duration="13252000" />
+      <workItem from="1607821621756" duration="5490000" />
+      <workItem from="1607835967682" duration="1508000" />
+      <workItem from="1607935873075" duration="7134000" />
+      <workItem from="1607952338040" duration="30118000" />
+      <workItem from="1608083249988" duration="13664000" />
+      <workItem from="1608113531502" duration="3505000" />
+      <workItem from="1608118911973" duration="39763000" />
+      <workItem from="1608292535006" duration="5957000" />
+      <workItem from="1608349954453" duration="23105000" />
+      <workItem from="1608443696691" duration="31537000" />
+      <workItem from="1608634939190" duration="55553000" />
+      <workItem from="1608807739485" duration="9834000" />
+      <workItem from="1608874644004" duration="16143000" />
+      <workItem from="1608913041729" duration="17176000" />
+      <workItem from="1609059033566" duration="2759000" />
+      <workItem from="1609061819412" duration="48987000" />
+      <workItem from="1609308489376" duration="21839000" />
+      <workItem from="1609658516432" duration="13659000" />
+      <workItem from="1609680301095" duration="12012000" />
+      <workItem from="1610089961408" duration="12598000" />
+      <workItem from="1617874471788" duration="1416000" />
+      <workItem from="1617878677271" duration="497000" />
+      <workItem from="1617879185105" duration="42000" />
+      <workItem from="1617879236222" duration="5755000" />
+      <workItem from="1617885320352" duration="3230000" />
+      <workItem from="1618112987184" duration="3357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-735" y="650" key="#com.intellij.ide.util.MemberChooser" timestamp="1617880654172">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-735" y="650" key="#com.intellij.ide.util.MemberChooser/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617880654172" />
+    <state x="548" y="276" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609665104533">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="276" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1609665104533" />
+    <state x="-1080" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617882281015">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-1080" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617882281015" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609674546949">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1609674546949" />
+    <state x="-601" y="266" key="FileChooserDialogImpl" timestamp="1617886585680">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-601" y="266" key="FileChooserDialogImpl/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617886585680" />
+    <state width="1036" height="570" key="GridCell.Tab.0.bottom" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.0.bottom/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610101627130" />
+    <state width="1036" height="570" key="GridCell.Tab.0.center" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.0.center/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610101627129" />
+    <state width="1036" height="570" key="GridCell.Tab.0.left" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.0.left/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610101627129" />
+    <state width="1036" height="570" key="GridCell.Tab.0.right" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.0.right/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610101627129" />
+    <state width="1036" height="570" key="GridCell.Tab.1.bottom" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.1.bottom/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610101627172" />
+    <state width="1036" height="570" key="GridCell.Tab.1.center" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.1.center/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1610101627171" />
+    <state width="1036" height="570" key="GridCell.Tab.1.left" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.1.left/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1610101627170" />
+    <state width="1036" height="570" key="GridCell.Tab.1.right" timestamp="1618131151394">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="570" key="GridCell.Tab.1.right/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1618131151394" />
+    <state width="1493" height="144" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1610101627171" />
+    <state width="1036" height="511" key="GridCell.Tab.2.bottom" timestamp="1617888555904">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="511" key="GridCell.Tab.2.bottom/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617888555904" />
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610095678097" />
+    <state width="1036" height="511" key="GridCell.Tab.2.center" timestamp="1617888555904">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="511" key="GridCell.Tab.2.center/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617888555904" />
+    <state width="1493" height="258" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1610095678097" />
+    <state width="1036" height="511" key="GridCell.Tab.2.left" timestamp="1617888555904">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="511" key="GridCell.Tab.2.left/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617888555904" />
+    <state width="1493" height="258" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1610095678096" />
+    <state width="1036" height="511" key="GridCell.Tab.2.right" timestamp="1617888555904">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1036" height="511" key="GridCell.Tab.2.right/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617888555904" />
+    <state width="1493" height="258" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1610095678097" />
+    <state x="-1010" y="600" key="Maven.ArtifactSearchDialog" timestamp="1617874535547">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-1010" y="600" key="Maven.ArtifactSearchDialog/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617874535547" />
+    <state x="-1039" y="589" key="SettingsEditor" timestamp="1617878960701">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-1039" y="589" key="SettingsEditor/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617878960701" />
+    <state x="600" y="292" width="340" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1609674488967">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="600" y="292" width="340" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.834@0.0.1536.834" timestamp="1609674488967" />
+    <state x="478" y="103" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610097679193">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="478" y="103" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1610097679193" />
+    <state x="449" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1609680303126">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="248" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1609680303126" />
+    <state x="-884" y="453" width="672" height="677" key="run.anything.popup" timestamp="1617878844291">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-884" y="453" width="672" height="677" key="run.anything.popup/-1080.0.1080.1890/0.0.1920.1050@-1080.0.1080.1890" timestamp="1617878844291" />
+    <state x="431" y="175" width="672" height="655" key="search.everywhere.popup" timestamp="1610096520807">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="175" width="672" height="655" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1610096520807" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/su/service/impl/ArticleServiceImpl.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/su/service/impl/ArticleServiceImpl.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/su/service/impl/UserServiceImpl.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
